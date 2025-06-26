@@ -1,0 +1,35 @@
+=== Message Exchange Log ===
+Client: ami
+Started at: 2025-06-27 02:15:30.789479
+==================================================
+
+
+[2025-06-27 02:15:30.817024] Sent Public Key:
+-----BEGIN PUBLIC KEY-----
+MCowBQYDK2VuAyEAJdqhaUf3dNJE/09RmPH2uYitrZI2x+FjQ00gG2/nVyY=
+-----END PUBLIC KEY-----
+
+--------------------------------------------------
+
+[2025-06-27 02:15:45.140496] Received Public Key:
+-----BEGIN PUBLIC KEY-----
+MCowBQYDK2VuAyEAfOdmBpvUX243D4hA7yab/tcKzYpcuEhBWCrA3Q60dSQ=
+-----END PUBLIC KEY-----
+
+--------------------------------------------------
+
+[2025-06-27 02:15:51.127730] Sent Message:
+Plain Text: ami: hi
+Cipher Text (hex): c3f6b55eeee3699de25b48497ba465f8b771522827e1140cde19aa254346bdac74c230
+Shared Key (hex): d0d6bd49f508e5da7e33f082ad5ba62dc066a756a0a12fef4f946103ed4ad983
+--------------------------------------------------
+
+[2025-06-27 02:15:56.406097] Received Message:
+Plain Text: bob: hi
+Cipher Text (hex): 82a02cd85e5f1eb7bead37ff296b8acde227c201635de2717c3f958a1d80b27604549c
+Shared Key (hex): d0d6bd49f508e5da7e33f082ad5ba62dc066a756a0a12fef4f946103ed4ad983
+--------------------------------------------------
+
+[2025-06-27 02:15:59.997321] ERROR:
+Error receiving message: [WinError 10053] An established connection was aborted by the software in your host machine
+--------------------------------------------------
